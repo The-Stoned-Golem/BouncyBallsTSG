@@ -35,4 +35,10 @@ public class BaseCommand extends AbstractCommand {
     public Parseable getPermissionsLocale() {
         return Locale.NO_PERMISSIONS;
     }
+
+    @Override
+    public Parseable getUnknownSubCommandLocale() {
+        // TODO Auto-generated method stub
+        return null;
+    }
 }
